@@ -1,0 +1,564 @@
+Started GET "/" for 127.0.0.1 at 2025-05-11 21:11:58 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (3.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ProfileController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering profile/home.html.erb within layouts/application
+  Rendered profile/home.html.erb within layouts/application (Duration: 6847.0ms | GC: 88.6ms)
+  Rendered layout layouts/application.html.erb (Duration: 6860.6ms | GC: 88.6ms)
+Completed 200 OK in 7134ms (Views: 6906.4ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 88.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2025-05-11 21:13:10 -0400
+Processing by ProfileController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering profile/home.html.erb within layouts/application
+  Rendered profile/home.html.erb within layouts/application (Duration: 103.5ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 149.1ms | GC: 0.0ms)
+Completed 200 OK in 237ms (Views: 218.9ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2025-05-11 21:13:48 -0400
+Processing by ProfileController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering profile/home.html.erb within layouts/application
+  Rendered profile/home.html.erb within layouts/application (Duration: 89.2ms | GC: 2.1ms)
+  Rendered layout layouts/application.html.erb (Duration: 194.6ms | GC: 2.8ms)
+Completed 500 Internal Server Error in 271ms (ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 2.8ms)
+
+
+  
+ActionView::Template::Error (The asset ".png" is not present in the asset pipeline.
+):
+
+Causes:
+Sprockets::Rails::Helper::AssetNotFound (The asset ".png" is not present in the asset pipeline.
+)
+    18:   <body>
+    19:     <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
+    20:       <div class="container-fluid">
+    21:         <a class="navbar-brand" href="<%= root_path %>"><%= image_tag(".png", alt:"Artem Kyselov", :class => "navbar-icon")%> Artem Kyselov</a>
+    22:         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    23:           <span class="navbar-toggler-icon"></span>
+    24:         </button>
+  
+app/views/layouts/application.html.erb:21
+Started GET "/" for 127.0.0.1 at 2025-05-11 21:16:32 -0400
+Processing by ProfileController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering profile/home.html.erb within layouts/application
+  Rendered profile/home.html.erb within layouts/application (Duration: 91.7ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 197.3ms | GC: 1.4ms)
+Completed 500 Internal Server Error in 205ms (ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 1.4ms)
+
+
+  
+ActionView::Template::Error (The asset ".png" is not present in the asset pipeline.
+):
+
+Causes:
+Sprockets::Rails::Helper::AssetNotFound (The asset ".png" is not present in the asset pipeline.
+)
+    18:   <body>
+    19:     <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
+    20:       <div class="container-fluid">
+    21:         <a class="navbar-brand" href="<%= root_path %>"><%= image_tag(".png", alt:"Artem Kyselov", :class => "navbar-icon")%> Artem Kyselov</a>
+    22:         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    23:           <span class="navbar-toggler-icon"></span>
+    24:         </button>
+  
+app/views/layouts/application.html.erb:21
+Started GET "/" for 127.0.0.1 at 2025-05-11 21:16:39 -0400
+Processing by ProfileController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering profile/home.html.erb within layouts/application
+  Rendered profile/home.html.erb within layouts/application (Duration: 97.4ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 120.1ms | GC: 0.0ms)
+Completed 500 Internal Server Error in 184ms (ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+  
+ActionView::Template::Error (The asset "icon" is not present in the asset pipeline.
+):
+
+Causes:
+Sprockets::Rails::Helper::AssetNotFound (The asset "icon" is not present in the asset pipeline.
+)
+     9: 
+    10:     <%= yield :head %>
+    11: 
+    12:     <%= favicon_link_tag 'icon', rel: 'shortcut icon', type: 'image/png' %>
+    13:     <%= favicon_link_tag 'icon.png', rel: 'apple-touch-icon', type: 'image/png' %>
+    14:     <%= stylesheet_link_tag "application", media: "all" %>
+    15:    
+  
+app/views/layouts/application.html.erb:12
+Started GET "/" for 127.0.0.1 at 2025-05-11 21:17:02 -0400
+Processing by ProfileController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering profile/home.html.erb within layouts/application
+  Rendered profile/home.html.erb within layouts/application (Duration: 96.9ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 1046.2ms | GC: 72.1ms)
+Completed 200 OK in 1057ms (Views: 1048.5ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 72.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2025-05-11 21:17:30 -0400
+Processing by ProfileController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering profile/home.html.erb within layouts/application
+  Rendered profile/home.html.erb within layouts/application (Duration: 84.7ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 153.1ms | GC: 0.0ms)
+Completed 200 OK in 221ms (Views: 202.6ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/portfolio" for 127.0.0.1 at 2025-05-11 21:32:26 -0400
+Processing by ProfileController#portfolio as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering profile/portfolio.html.erb within layouts/application
+  Rendered profile/portfolio.html.erb within layouts/application (Duration: 147.9ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 221.2ms | GC: 12.9ms)
+Completed 200 OK in 239ms (Views: 224.0ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 12.9ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2025-05-11 21:32:28 -0400
+Processing by ProfileController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering profile/about.html.erb within layouts/application
+  Rendered profile/about.html.erb within layouts/application (Duration: 131.5ms | GC: 1.8ms)
+  Rendered layout layouts/application.html.erb (Duration: 190.2ms | GC: 1.8ms)
+Completed 200 OK in 205ms (Views: 192.4ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 1.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2025-05-11 21:32:51 -0400
+Processing by ProfileController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering profile/home.html.erb within layouts/application
+  Rendered profile/home.html.erb within layouts/application (Duration: 190.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 321.9ms | GC: 0.0ms)
+Completed 200 OK in 338ms (Views: 324.4ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 1.9ms)
+
+
+Started GET "/portfolio" for 127.0.0.1 at 2025-05-11 21:32:53 -0400
+Processing by ProfileController#portfolio as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering profile/portfolio.html.erb within layouts/application
+  Rendered profile/portfolio.html.erb within layouts/application (Duration: 280.3ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 393.8ms | GC: 0.2ms)
+Completed 200 OK in 405ms (Views: 396.7ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2025-05-11 21:33:00 -0400
+Processing by ProfileController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering profile/home.html.erb within layouts/application
+  Rendered profile/home.html.erb within layouts/application (Duration: 363.2ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 541.8ms | GC: 0.5ms)
+Completed 200 OK in 548ms (Views: 543.2ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2025-05-11 22:03:52 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (4.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ProfileController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering profile/home.html.erb within layouts/application
+  Rendered profile/home.html.erb within layouts/application (Duration: 2988.9ms | GC: 88.4ms)
+  Rendered layout layouts/application.html.erb (Duration: 3234.4ms | GC: 88.4ms)
+Completed 200 OK in 3535ms (Views: 3280.6ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 88.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2025-05-11 22:05:16 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (5.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ProfileController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering profile/home.html.erb within layouts/application
+  Rendered profile/home.html.erb within layouts/application (Duration: 2992.5ms | GC: 82.9ms)
+  Rendered layout layouts/application.html.erb (Duration: 3225.2ms | GC: 82.9ms)
+Completed 200 OK in 3524ms (Views: 3270.1ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 82.9ms)
+
+
+Started GET "/portfolio" for 127.0.0.1 at 2025-05-11 22:05:22 -0400
+Processing by ProfileController#portfolio as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering profile/portfolio.html.erb within layouts/application
+  Rendered profile/portfolio.html.erb within layouts/application (Duration: 214.6ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 368.8ms | GC: 0.0ms)
+Completed 200 OK in 388ms (Views: 370.4ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/portfolio" for 127.0.0.1 at 2025-05-11 22:05:26 -0400
+Processing by ProfileController#portfolio as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering profile/portfolio.html.erb within layouts/application
+  Rendered profile/portfolio.html.erb within layouts/application (Duration: 149.0ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 299.2ms | GC: 0.0ms)
+Completed 200 OK in 304ms (Views: 300.9ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2025-05-11 22:05:27 -0400
+Processing by ProfileController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering profile/about.html.erb within layouts/application
+  Rendered profile/about.html.erb within layouts/application (Duration: 219.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 383.7ms | GC: 0.0ms)
+Completed 200 OK in 405ms (Views: 385.1ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2025-05-11 22:05:29 -0400
+Processing by ProfileController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering profile/home.html.erb within layouts/application
+  Rendered profile/home.html.erb within layouts/application (Duration: 98.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 272.4ms | GC: 26.1ms)
+Completed 200 OK in 284ms (Views: 276.9ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 26.1ms)
+
+
+Started GET "/portfolio" for 127.0.0.1 at 2025-05-11 22:06:44 -0400
+Processing by ProfileController#portfolio as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering profile/portfolio.html.erb within layouts/application
+  Rendered profile/portfolio.html.erb within layouts/application (Duration: 154.4ms | GC: 2.3ms)
+  Rendered layout layouts/application.html.erb (Duration: 307.0ms | GC: 3.5ms)
+Completed 200 OK in 317ms (Views: 309.6ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 3.5ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2025-05-11 22:06:46 -0400
+Processing by ProfileController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering profile/about.html.erb within layouts/application
+  Rendered profile/about.html.erb within layouts/application (Duration: 147.2ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 298.7ms | GC: 0.5ms)
+Completed 200 OK in 305ms (Views: 299.9ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2025-05-11 22:06:51 -0400
+Processing by ProfileController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering profile/home.html.erb within layouts/application
+  Rendered profile/home.html.erb within layouts/application (Duration: 90.2ms | GC: 0.8ms)
+  Rendered layout layouts/application.html.erb (Duration: 228.6ms | GC: 1.7ms)
+Completed 200 OK in 238ms (Views: 231.9ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 1.7ms)
+
+
+Started GET "/portfolio" for 127.0.0.1 at 2025-05-11 22:07:42 -0400
+Processing by ProfileController#portfolio as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering profile/portfolio.html.erb within layouts/application
+  Rendered profile/portfolio.html.erb within layouts/application (Duration: 141.3ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 300.7ms | GC: 0.4ms)
+Completed 200 OK in 306ms (Views: 302.4ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2025-05-11 22:08:11 -0400
+Processing by ProfileController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering profile/home.html.erb within layouts/application
+  Rendered profile/home.html.erb within layouts/application (Duration: 79.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 235.2ms | GC: 0.0ms)
+Completed 200 OK in 243ms (Views: 237.8ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2025-05-11 22:10:13 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (4.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ProfileController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering profile/home.html.erb within layouts/application
+  Rendered profile/home.html.erb within layouts/application (Duration: 2832.7ms | GC: 72.8ms)
+  Rendered layout layouts/application.html.erb (Duration: 3084.1ms | GC: 72.8ms)
+Completed 200 OK in 3373ms (Views: 3129.8ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 72.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2025-05-11 22:11:32 -0400
+Processing by ProfileController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering profile/home.html.erb within layouts/application
+  Rendered profile/home.html.erb within layouts/application (Duration: 95.0ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 6228.1ms | GC: 21.4ms)
+Completed 500 Internal Server Error in 6234ms (ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 21.4ms)
+
+
+  
+ActionView::Template::Error (Error: File to import not found or unreadable: bootstrap-icons/font/bootstrap-icons.
+        on line 17:1 of app/assets/stylesheets/application.scss
+>> @import "bootstrap-icons/font/bootstrap-icons";
+
+   ^
+):
+
+Causes:
+SassC::SyntaxError (Error: File to import not found or unreadable: bootstrap-icons/font/bootstrap-icons.
+        on line 17:1 of app/assets/stylesheets/application.scss
+>> @import "bootstrap-icons/font/bootstrap-icons";
+
+   ^
+)
+    11: 
+    12:     <%= favicon_link_tag 'icon', rel: 'shortcut icon', type: 'image/png' %>
+    13:     <%= favicon_link_tag 'icon.png', rel: 'apple-touch-icon', type: 'image/png' %>
+    14:     <%= stylesheet_link_tag "application", media: "all" %>
+    15:    
+    16:     </head>
+    17: 
+  
+app/views/layouts/application.html.erb:14
+Started GET "/" for 127.0.0.1 at 2025-05-11 22:14:07 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (4.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ProfileController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering profile/home.html.erb within layouts/application
+  Rendered profile/home.html.erb within layouts/application (Duration: 9289.3ms | GC: 140.1ms)
+  Rendered layout layouts/application.html.erb (Duration: 9292.5ms | GC: 140.1ms)
+Completed 500 Internal Server Error in 9566ms (ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 140.1ms)
+
+
+  
+ActionView::Template::Error (Error: File to import not found or unreadable: bootstrap-icons/font/bootstrap-icons.
+        on line 17:1 of app/assets/stylesheets/application.scss
+>> @import "bootstrap-icons/font/bootstrap-icons";
+
+   ^
+):
+
+Causes:
+SassC::SyntaxError (Error: File to import not found or unreadable: bootstrap-icons/font/bootstrap-icons.
+        on line 17:1 of app/assets/stylesheets/application.scss
+>> @import "bootstrap-icons/font/bootstrap-icons";
+
+   ^
+)
+  
+sassc (2.4.0) lib/sassc/engine.rb:50:in `render'
+sassc-rails (2.1.2) lib/sassc/rails/template.rb:40:in `block in call'
+sprockets (4.2.1) lib/sprockets/utils.rb:145:in `block in module_include'
+sprockets (4.2.1) lib/sprockets/utils.rb:130:in `synchronize'
+sprockets (4.2.1) lib/sprockets/utils.rb:130:in `module_include'
+sassc-rails (2.1.2) lib/sassc/rails/template.rb:39:in `call'
+sprockets (4.2.1) lib/sprockets/processor_utils.rb:84:in `call_processor'
+sprockets (4.2.1) lib/sprockets/processor_utils.rb:66:in `block in call_processors'
+sprockets (4.2.1) lib/sprockets/processor_utils.rb:65:in `reverse_each'
+sprockets (4.2.1) lib/sprockets/processor_utils.rb:65:in `call_processors'
+sprockets (4.2.1) lib/sprockets/processor_utils.rb:22:in `block in <class:CompositeProcessor>'
+sprockets (4.2.1) lib/sprockets/processor_utils.rb:33:in `call'
+sprockets (4.2.1) lib/sprockets/processor_utils.rb:84:in `call_processor'
+sprockets (4.2.1) lib/sprockets/processor_utils.rb:66:in `block in call_processors'
+sprockets (4.2.1) lib/sprockets/processor_utils.rb:65:in `reverse_each'
+sprockets (4.2.1) lib/sprockets/processor_utils.rb:65:in `call_processors'
+sprockets (4.2.1) lib/sprockets/loader.rb:184:in `load_from_unloaded'
+sprockets (4.2.1) lib/sprockets/loader.rb:59:in `block in load'
+sprockets (4.2.1) lib/sprockets/loader.rb:339:in `fetch_asset_from_dependency_cache'
+sprockets (4.2.1) lib/sprockets/loader.rb:43:in `load'
+sprockets (4.2.1) lib/sprockets/cached_environment.rb:44:in `block in load'
+concurrent-ruby (1.3.5) lib/concurrent-ruby/concurrent/map.rb:207:in `block in fetch_or_store'
+concurrent-ruby (1.3.5) lib/concurrent-ruby/concurrent/map.rb:187:in `fetch'
+concurrent-ruby (1.3.5) lib/concurrent-ruby/concurrent/map.rb:206:in `fetch_or_store'
+sprockets (4.2.1) lib/sprockets/cached_environment.rb:44:in `load'
+sprockets (4.2.1) lib/sprockets/bundle.rb:27:in `call'
+sprockets (4.2.1) lib/sprockets/processor_utils.rb:84:in `call_processor'
+sprockets (4.2.1) lib/sprockets/processor_utils.rb:66:in `block in call_processors'
+sprockets (4.2.1) lib/sprockets/processor_utils.rb:65:in `reverse_each'
+sprockets (4.2.1) lib/sprockets/processor_utils.rb:65:in `call_processors'
+sprockets (4.2.1) lib/sprockets/loader.rb:184:in `load_from_unloaded'
+sprockets (4.2.1) lib/sprockets/loader.rb:59:in `block in load'
+sprockets (4.2.1) lib/sprockets/loader.rb:339:in `fetch_asset_from_dependency_cache'
+sprockets (4.2.1) lib/sprockets/loader.rb:43:in `load'
+sprockets (4.2.1) lib/sprockets/cached_environment.rb:44:in `block in load'
+concurrent-ruby (1.3.5) lib/concurrent-ruby/concurrent/map.rb:207:in `block in fetch_or_store'
+concurrent-ruby (1.3.5) lib/concurrent-ruby/concurrent/map.rb:187:in `fetch'
+concurrent-ruby (1.3.5) lib/concurrent-ruby/concurrent/map.rb:206:in `fetch_or_store'
+sprockets (4.2.1) lib/sprockets/cached_environment.rb:44:in `load'
+sprockets (4.2.1) lib/sprockets/bundle.rb:32:in `block in call'
+/home/art/.local/share/mise/installs/ruby/3.3.4/lib/ruby/3.3.0/set.rb:501:in `each_key'
+/home/art/.local/share/mise/installs/ruby/3.3.4/lib/ruby/3.3.0/set.rb:501:in `each'
+sprockets (4.2.1) lib/sprockets/bundle.rb:31:in `call'
+sprockets (4.2.1) lib/sprockets/processor_utils.rb:84:in `call_processor'
+sprockets (4.2.1) lib/sprockets/processor_utils.rb:66:in `block in call_processors'
+sprockets (4.2.1) lib/sprockets/processor_utils.rb:65:in `reverse_each'
+sprockets (4.2.1) lib/sprockets/processor_utils.rb:65:in `call_processors'
+sprockets (4.2.1) lib/sprockets/loader.rb:184:in `load_from_unloaded'
+sprockets (4.2.1) lib/sprockets/loader.rb:59:in `block in load'
+sprockets (4.2.1) lib/sprockets/loader.rb:339:in `fetch_asset_from_dependency_cache'
+sprockets (4.2.1) lib/sprockets/loader.rb:43:in `load'
+sprockets (4.2.1) lib/sprockets/cached_environment.rb:44:in `block in load'
+concurrent-ruby (1.3.5) lib/concurrent-ruby/concurrent/map.rb:207:in `block in fetch_or_store'
+concurrent-ruby (1.3.5) lib/concurrent-ruby/concurrent/map.rb:187:in `fetch'
+concurrent-ruby (1.3.5) lib/concurrent-ruby/concurrent/map.rb:206:in `fetch_or_store'
+sprockets (4.2.1) lib/sprockets/cached_environment.rb:44:in `load'
+sprockets (4.2.1) lib/sprockets/base.rb:81:in `find_asset'
+sprockets (4.2.1) lib/sprockets/base.rb:88:in `find_all_linked_assets'
+sprockets (4.2.1) lib/sprockets/manifest.rb:125:in `each'
+sprockets (4.2.1) lib/sprockets/manifest.rb:125:in `to_a'
+sprockets (4.2.1) lib/sprockets/manifest.rb:125:in `block (2 levels) in find'
+concurrent-ruby (1.3.5) lib/concurrent-ruby/concurrent/executor/safe_task_executor.rb:24:in `block in execute'
+concurrent-ruby (1.3.5) lib/concurrent-ruby/concurrent/synchronization/mutex_lockable_object.rb:48:in `block in synchronize'
+concurrent-ruby (1.3.5) lib/concurrent-ruby/concurrent/synchronization/mutex_lockable_object.rb:48:in `synchronize'
+concurrent-ruby (1.3.5) lib/concurrent-ruby/concurrent/synchronization/mutex_lockable_object.rb:48:in `synchronize'
+concurrent-ruby (1.3.5) lib/concurrent-ruby/concurrent/executor/safe_task_executor.rb:22:in `execute'
+concurrent-ruby (1.3.5) lib/concurrent-ruby/concurrent/promise.rb:564:in `block in realize'
+concurrent-ruby (1.3.5) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:359:in `run_task'
+concurrent-ruby (1.3.5) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:350:in `block (3 levels) in create_worker'
+<internal:kernel>:187:in `loop'
+concurrent-ruby (1.3.5) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:341:in `block (2 levels) in create_worker'
+concurrent-ruby (1.3.5) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:340:in `catch'
+concurrent-ruby (1.3.5) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:340:in `block in create_worker'
+Started GET "/" for 127.0.0.1 at 2025-05-11 22:14:42 -0400
+Processing by ProfileController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering profile/home.html.erb within layouts/application
+  Rendered profile/home.html.erb within layouts/application (Duration: 8236.2ms | GC: 89.1ms)
+  Rendered layout layouts/application.html.erb (Duration: 8386.1ms | GC: 89.2ms)
+Completed 200 OK in 8394ms (Views: 8390.2ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 89.2ms)
+
+
+Started GET "/portfolio" for 127.0.0.1 at 2025-05-11 22:14:56 -0400
+Processing by ProfileController#portfolio as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering profile/portfolio.html.erb within layouts/application
+  Rendered profile/portfolio.html.erb within layouts/application (Duration: 155.7ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 310.9ms | GC: 0.1ms)
+Completed 200 OK in 333ms (Views: 313.9ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.1ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2025-05-11 22:14:58 -0400
+Processing by ProfileController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering profile/about.html.erb within layouts/application
+  Rendered profile/about.html.erb within layouts/application (Duration: 138.2ms | GC: 0.1ms)
+  Rendered layout layouts/application.html.erb (Duration: 284.3ms | GC: 0.4ms)
+Completed 200 OK in 307ms (Views: 286.4ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.4ms)
+
+
+Started GET "/.well-known/appspecific/com.chrome.devtools.json" for 127.0.0.1 at 2025-05-11 22:15:02 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/.well-known/appspecific/com.chrome.devtools.json"):
+  
+Started GET "/about" for 127.0.0.1 at 2025-05-11 22:17:09 -0400
+Processing by ProfileController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering profile/about.html.erb within layouts/application
+  Rendered profile/about.html.erb within layouts/application (Duration: 278.7ms | GC: 2.8ms)
+  Rendered layout layouts/application.html.erb (Duration: 571.4ms | GC: 5.9ms)
+Completed 200 OK in 727ms (Views: 684.1ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 5.9ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2025-05-11 22:19:54 -0400
+Processing by ProfileController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering profile/about.html.erb within layouts/application
+  Rendered profile/about.html.erb within layouts/application (Duration: 304.5ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 5907.8ms | GC: 25.0ms)
+Completed 500 Internal Server Error in 6066ms (ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 25.6ms)
+
+
+  
+ActionView::Template::Error (Error: File to import not found or unreadable: bootstrap/dist/css/bootstrap.
+        on line 18:1 of app/assets/stylesheets/application.scss
+>> @import "bootstrap/dist/css/bootstrap";
+
+   ^
+):
+
+Causes:
+SassC::SyntaxError (Error: File to import not found or unreadable: bootstrap/dist/css/bootstrap.
+        on line 18:1 of app/assets/stylesheets/application.scss
+>> @import "bootstrap/dist/css/bootstrap";
+
+   ^
+)
+    11: 
+    12:     <%= favicon_link_tag 'icon', rel: 'shortcut icon', type: 'image/png' %>
+    13:     <%= favicon_link_tag 'icon.png', rel: 'apple-touch-icon', type: 'image/png' %>
+    14:     <%= stylesheet_link_tag "application", media: "all" %>
+    15: 
+    16:    
+    17:     </head>
+  
+app/views/layouts/application.html.erb:14
+Started GET "/about" for 127.0.0.1 at 2025-05-11 22:21:29 -0400
+Processing by ProfileController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering profile/about.html.erb within layouts/application
+  Rendered profile/about.html.erb within layouts/application (Duration: 312.5ms | GC: 4.2ms)
+  Rendered layout layouts/application.html.erb (Duration: 11862.9ms | GC: 27.5ms)
+Completed 200 OK in 11877ms (Views: 11865.3ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 27.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2025-05-11 22:21:48 -0400
+Processing by ProfileController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering profile/home.html.erb within layouts/application
+  Rendered profile/home.html.erb within layouts/application (Duration: 179.8ms | GC: 0.7ms)
+  Rendered layout layouts/application.html.erb (Duration: 367.3ms | GC: 1.5ms)
+Completed 200 OK in 399ms (Views: 371.1ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 1.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2025-05-11 22:23:08 -0400
+Processing by ProfileController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering profile/home.html.erb within layouts/application
+  Rendered profile/home.html.erb within layouts/application (Duration: 187.6ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 407.5ms | GC: 4.0ms)
+Completed 200 OK in 535ms (Views: 502.7ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 4.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2025-05-11 22:24:53 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (8.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ProfileController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering profile/home.html.erb within layouts/application
+  Rendered profile/home.html.erb within layouts/application (Duration: 12886.0ms | GC: 126.9ms)
+  Rendered layout layouts/application.html.erb (Duration: 13206.7ms | GC: 126.9ms)
+Completed 200 OK in 13700ms (Views: 13283.6ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 126.9ms)
+
+
+Started GET "/portfolio" for 127.0.0.1 at 2025-05-11 22:25:12 -0400
+Processing by ProfileController#portfolio as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering profile/portfolio.html.erb within layouts/application
+  Rendered profile/portfolio.html.erb within layouts/application (Duration: 284.6ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 493.3ms | GC: 0.0ms)
+Completed 200 OK in 526ms (Views: 496.1ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2025-05-11 22:25:15 -0400
+Processing by ProfileController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering profile/about.html.erb within layouts/application
+  Rendered profile/about.html.erb within layouts/application (Duration: 289.7ms | GC: 1.4ms)
+  Rendered layout layouts/application.html.erb (Duration: 492.9ms | GC: 2.1ms)
+Completed 200 OK in 527ms (Views: 495.9ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 2.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2025-05-11 22:25:20 -0400
+Processing by ProfileController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering profile/home.html.erb within layouts/application
+  Rendered profile/home.html.erb within layouts/application (Duration: 185.9ms | GC: 0.5ms)
+  Rendered layout layouts/application.html.erb (Duration: 380.6ms | GC: 0.8ms)
+Completed 200 OK in 393ms (Views: 383.0ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.8ms)
+
+
+Started GET "/portfolio" for 127.0.0.1 at 2025-05-11 22:25:25 -0400
+Processing by ProfileController#portfolio as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering profile/portfolio.html.erb within layouts/application
+  Rendered profile/portfolio.html.erb within layouts/application (Duration: 299.7ms | GC: 0.3ms)
+  Rendered layout layouts/application.html.erb (Duration: 512.1ms | GC: 0.7ms)
+Completed 200 OK in 530ms (Views: 519.5ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2025-05-11 22:25:29 -0400
+Processing by ProfileController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering profile/home.html.erb within layouts/application
+  Rendered profile/home.html.erb within layouts/application (Duration: 173.8ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 384.0ms | GC: 0.4ms)
+Completed 200 OK in 401ms (Views: 388.3ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.4ms)
+
+
+Started GET "/portfolio" for 127.0.0.1 at 2025-05-11 22:25:32 -0400
+Processing by ProfileController#portfolio as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering profile/portfolio.html.erb within layouts/application
+  Rendered profile/portfolio.html.erb within layouts/application (Duration: 285.2ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 490.2ms | GC: 0.0ms)
+Completed 200 OK in 502ms (Views: 492.3ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+

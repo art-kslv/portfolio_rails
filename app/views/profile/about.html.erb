@@ -1,0 +1,47 @@
+<% content_for :head do %>
+  <%= stylesheet_link_tag "style_tech", media: "all" %>
+<% end %>
+<body>
+<div class="main-centered-container">
+  <div class="container mt-5">
+    <h1 class="text-center">My Projects</h1>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card mb-4">
+          <%= image_tag "smart_cap.png", class: "card-img-top", alt: "Project Image" %>
+          <div class="card-body">
+            <h5 class="card-title"><i class="bi bi-trophy"></i> Smart WP Cap</h5>
+            <p class="card-text">Conducted the first experiment in the world to track the movement of a water polo player by a prototype of a smart water polo cap</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card mb-4">
+          <%= image_tag "mask.png", class: "card-img-top", alt: "Project Image" %>
+          <div class="card-body">
+            <h5 class="card-title"><i class="bi bi-heart-pulse"></i> Detector Mask</h5>
+            <p class="card-text">Using my knowledge in robotics and coding, I invented a facemask for diagnosing respiratory diseases, such as coronavirus. I have won "Future of Ukraine" and "Teens vs Covid-19" hackathons for this device</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card mb-4">
+          <%= image_tag "car.png", class: "card-img-top", alt: "Project Image" %>
+          <div class="card-body">
+            <h5 class="card-title"><i class="bi bi-car-front"></i> Line following</h5>
+            <p class="card-text">I undertook a research on the systems of control of a universal mobile base and received the 1st place at the Regional Olympiad in Robotics</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <footer class="footer mt-auto py-3 bg-light">
+            <div class="container">
+                <span class="text-muted">© 2025 Artem Kyselov. All rights reserved.</span>
+            </div>
+        </footer>
+        
+</div>
+</body>
